@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['silo', 'vessel']
+
+roboflow:
+  workspace: remi-ct9td
+  project: vessel-detection-mask-annotated-try1
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/remi-ct9td/vessel-detection-mask-annotated-try1/dataset/3
